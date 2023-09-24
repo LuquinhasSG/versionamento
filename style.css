@@ -1,0 +1,5 @@
+.table td {
+  border: solid 1px;
+  border-color: lightslategray;
+  padding: 5px;
+}
