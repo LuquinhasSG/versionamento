@@ -6,11 +6,92 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="menu">
+    <div>
       <ul>
         <li><a href="perguntas.html">Perguntas</a></li>
         <li><a href="comandos.html">Comandos</a></li>
         <li><a href="comandos-flow.html">Comandos Flow</a></li>
       </ul>
+    <table>
+      <tr>
+        <th>Pergunta</th>
+        <th>Resposta</th>
+      </tr>
+      <tr>
+        <td>Para que serve o commit e qual a melhor forma de utilizá-lo?</td>
+        <td>
+          O "commit" no Git é como tirar uma fotografia do seu projeto em um
+          determinado momento. Ele serve para registrar as mudanças que você fez
+          no código, tornando-as permanentes no histórico do projeto. A melhor
+          forma de utilizá-lo é fazer "commits" pequenos e frequentes, focando
+          em uma única tarefa ou correção de cada vez. Isso torna o histórico
+          mais claro e ajuda na solução de problemas, pois é mais fácil
+          identificar quando algo deu errado. Além disso, é importante adicionar
+          mensagens de commit descritivas para que outros desenvolvedores (ou
+          você mesmo no futuro) possam entender o que foi feito em cada commit.
+        </td>
+      </tr>
+      <tr>
+        <td>Qual a diferença entre commit e push?</td>
+        <td>
+          O "commit" e o "push" são duas operações diferentes no Git. Um
+          "commit" é usado para registrar as mudanças localmente no seu
+          repositório. É como tirar uma foto das alterações. Por outro lado, o
+          "push" é usado para enviar essas mudanças para um repositório remoto,
+          como o GitHub. Portanto, após fazer um "commit" localmente, você usa o
+          "push" para compartilhar essas mudanças com outros membros da equipe
+          ou para fazer backup em um servidor remoto. Em resumo, "commit" é
+          local e "push" é a ação de enviar essas mudanças para um servidor
+          compartilhado.
+        </td>
+      </tr>
+      <tr>
+        <td>O que é tag?</td>
+        <td>
+          Uma "tag" no Git é uma marcação usada para identificar pontos
+          específicos na história do repositório, geralmente versões importantes
+          ou lançamentos estáveis do software. As "tags" são usadas para marcar
+          um commit específico como uma versão oficial do software, o que
+          facilita a referência e o acesso a versões específicas no futuro. Ao
+          contrário de ramificações (branches), as "tags" não mudam com o tempo;
+          elas são estáticas e destinam-se a permanecer fixas para representar
+          versões específicas do projeto.
+        </td>
+      </tr>
+      <tr>
+        <td>O que é branch?</td>
+        <td>
+          Uma "branch" (ramificação) no Git é uma linha de desenvolvimento
+          independente que permite trabalhar em recursos, correções de bugs ou
+          experimentos sem afetar a versão principal (branch principal) do
+          projeto. É como criar uma cópia do seu projeto para fazer alterações
+          sem alterar o projeto principal. As ramificações facilitam o
+          desenvolvimento paralelo, pois várias pessoas podem trabalhar em
+          diferentes recursos ao mesmo tempo, sem conflitos. Quando as
+          alterações em uma ramificação estão prontas, elas podem ser mescladas
+          de volta à branch principal.
+        </td>
+      </tr>
+      <tr>
+        <td>Como resolver possíveis conflitos no Git?</td>
+        <td>
+          <p>
+            Conflitos no Git ocorrem quando duas ou mais pessoas fazem
+            alterações conflitantes na mesma parte de um arquivo. Para
+            resolvê-los, é necessário seguir alguns passos. Primeiro, você
+            precisa usar o comando "git status" para identificar os arquivos com
+            conflitos. Em seguida, abra esses arquivos em um editor de código e
+            procure as marcações de conflito (geralmente cercadas por "<<<<<<<",
+            "=======" e ">>>>>>>"). Você deve editar o arquivo para manter
+            apenas as partes que deseja manter e remover as partes conflitantes.
+            Depois de editar o arquivo, você faz um "commit" das alterações.
+            Este é o processo de resolução manual de conflitos. Em seguida,
+            basta fazer um "commit" para registrar as alterações resolvidas. Em
+            alguns casos, pode ser necessário um "merge" adicional se houver
+            mais de um conflito.
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
